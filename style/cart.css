@@ -1,0 +1,308 @@
+/*头部开始*/
+.m_header{
+    width: 100%;
+    height: 0.88rem;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+.m_header .text h2{
+    font-size: 0.30rem;
+    color: #000;
+    font-weight: normal;
+    float: left;
+    line-height: 0.88rem;
+    margin-left: 3.3rem;
+}
+.m_header .text p{
+    font-size: 0.22rem;
+    color: #333;
+    float: left;
+    line-height: 0.88rem;
+    margin-left: 2.12rem;
+}
+.m_header .m_header_right{
+    width: 0.42rem;
+    height: 0.42rem;
+    font-size: 0.42rem;
+    color: #989a99;
+    float: right;
+    padding-top: 0.2rem;
+    margin-right: 0.2rem;
+}
+/*头部结束*/
+/*内容开始*/
+/*点击开始*/
+input.check{
+    width:0.42rem;
+    height:0.42rem;
+    display:block;
+    background:url(../images/129.png) no-repeat left center;
+    background-size:0.40rem 0.40rem;
+    position:absolute;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+}
+input.check:checked{
+    background:url(../images/130.png) no-repeat left center;
+    background-size:0.40rem 0.40rem;
+}
+/*点击结束*/
+.main{
+    height: 13rem;
+    background: #fff;
+}
+/*商家内容开始*/
+.shop-item{
+    width: 100%;
+    height: auto;
+    padding-left: 0.2rem;
+}
+.shop-item .item-name{
+    width: 100%;
+    height: 0.8rem;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    padding-left: 0.6rem;
+}
+.shop-item .item-name h4{
+    font-size: 0.24rem;
+    font-weight: normal;
+    line-height: 0.8rem;
+}
+.shop-item .item-name h4 a{
+    color: #333;
+}
+.shop-item ul{
+    width: 100%;
+    min-height: 1.8rem;
+}
+.shop-item ul li{
+    width: 100%;
+    height: 2.16rem;
+}
+.shop-item ul li .shop-info{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.shop-item ul li .shop-info .shop-info-img{
+    width: 1.32rem;
+    height: 1.75rem;
+    overflow:hidden;
+    position:absolute;
+    left:0.64rem;
+    top:50%;
+    transform:translateY(-50%);
+}
+.shop-item ul li .shop-info .shop-info-img img{
+    width: 100%;
+}
+.shop-item ul li .shop-info .shop-info-text{
+    width: 4.8rem;
+    height: 1.75rem;
+    position: absolute;
+    right:0.2rem;
+    top:50%;
+    transform:translateY(-50%);
+}
+.shop-item ul li .shop-info .shop-info-text h3{
+    font-size: 0.24rem;
+    color: #000;
+    line-height: 0.34rem;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+    font-weight:200;
+}
+.shop-item ul li .shop-info .shop-info-text p{
+    font-size: 0.20rem;
+    color: #666;
+    margin-top: 0.06rem;
+}
+.shop-item ul li .shop-info .shop-info-text .shop-price{
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    position: absolute;
+    bottom:0rem;
+    left: 0rem;
+}
+.shop-item ul li .shop-info .shop-info-text .shop-price .shop-arithmetic{
+    position: absolute;
+    right: 0rem;
+    bottom:0rem;
+    border: 1px solid #e3e3e3;
+    width: 1.4rem;
+    height: 100%;
+}
+.shop-item ul li .shop-info .shop-info-text .shop-price .shop-arithmetic .minus{
+    border-right: 1px solid #e3e3e3;
+    width: 0.4rem;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.shop-item ul li .shop-info .shop-info-text .shop-price .shop-arithmetic .plus{
+    border-left: 1px solid #e3e3e3;
+    width: 0.38rem;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.shop-item ul li .shop-info .shop-info-text .shop-price .shop-arithmetic .num{
+    font-size: 0.22rem;
+    width: 0.4rem;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+/*商家内容结束*/
+.line{
+    width: 100%;
+    height: 0.1rem;
+    background: #f0f0f0;
+}
+/*看了又看开始*/
+.special{
+    width: 100%;
+    height: 8.4rem;
+    background: #f0f0f0;
+    padding-top: 0.1rem;
+}
+.special .special-top{
+    width: 100%;
+    height: 0.7rem;
+}
+.special .special-top p{
+    font-size: 0.24rem;
+    color: #333;
+    line-height: 0.7rem;
+    margin-left: 0.2rem;
+}
+.special .special-con{
+    width: 100%;
+}
+.special .special-con ul{
+    width: 100%
+}
+.special .special-con li{
+    width: 45%;
+    float: left;
+    background: #fff;
+    height: 5.3rem;
+    margin-left: 0.25rem;
+}
+.special .special-con ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.special .special-con a.pic{
+    width: 3.35rem;
+    height: 5.20rem;
+}
+.special .special-con .pic img{
+    width: 100%;
+}
+.special .special-con .text .name{
+    font-size: 0.2rem;
+    color : #333;
+    margin-top: 0.06rem;
+    line-height: 0.3rem;
+    margin-left: 0.08rem;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.special .special-con .text .money{
+    font-size: 0.24rem;
+    color : #000;
+    margin-top: 0.06rem;
+}
+.special .special-con .text .money-1{
+    margin-top: 0.36rem;
+}
+/*看了又看结束*/
+/*订单结算开始*/
+.foot-edit{
+    width: 100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    height: 0.75rem;
+    background: #fff;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0.98rem;
+}
+.foot-edit .all-checkbox{
+    float: left;
+}
+.foot-edit .all-checkbox input{
+    position: absolute;
+    left:0.2rem;
+    transform:translateY(-50%);
+}
+.foot-edit .all-checkbox p{
+    font-size: 0.24rem;
+    color: #333;
+    margin-left: 0.7rem;
+    padding-top: 0.22rem;
+}
+.foot-edit .foot-edit-right{
+    float: right;
+    padding-right:0.2rem;
+}
+.foot-edit .foot-edit-right span{
+    font-size: 0.24rem;
+    color: red;
+    line-height: 0.8rem;
+    padding-right: 0.1rem;
+}
+.foot-edit .foot-edit-right button{
+    width: 1rem;
+    height: 0.4rem;
+    background: red;
+    border:none;
+    color: #fff;
+}
+/*订单结算结束*/
+/*内容结束*/
+
+/*bottom开始*/
+.bottom{
+    width: 100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: 0 auto;
+
+    height: 0.98rem;
+    background: #fff;
+    border-top: 1px solid #dddddd;
+    z-index:100;
+}
+.bottom ul{
+    width: 100%;
+    height: 100%;
+}
+.bottom ul li{
+    width: 25%;
+    float: left;
+    padding-top: 0.12rem;
+}
+.bottom ul li a{
+    width: 100%;
+
+}
+.bottom ul li a img{
+    width: 0.53rem;
+    height: 0.67rem;
+    margin: 0 auto;
+}
+/*bottom结束*/

@@ -1,0 +1,174 @@
+/*头部开始*/
+.m-header{
+    width: 100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    margin: 0 auto;
+    height: 0.88rem;
+    background: #fff;
+}
+.m-header .m_header_left{
+    width: 0.42rem;
+    height: 0.42rem;
+    font-size: 0.42rem;
+    color: #5f5f5f;
+    padding-top: 0.2rem;
+    margin-left: 0.2rem;
+    float: left;
+}
+.m-header .m_header_right{
+    width: 0.42rem;
+    height: 0.42rem;
+    font-size: 0.42rem;
+    color: #5f5f5f;
+    float: right;
+    padding-top: 0.2rem;
+    margin-right: 0.2rem;
+}
+/*头部结束*/
+/*内容开始*/
+.main_wrap{
+    width: 100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    margin: 0 auto;
+    height: 12.46rem;
+}
+.main_wrap>p{
+    font-size: 0.34rem;
+    color: #000;
+    padding-left: 0.6rem;
+    padding-top: 1rem;
+}
+/*账号密码登录*/
+.login-con .con-item{
+    margin-top: 0.88rem;
+}
+.login-con .con-item .form-item{
+    width: 6.38rem;
+    height: 0.8rem;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 0.8rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+}
+input::-webkit-input-placeholder{
+    font-size:0.20rem;
+    color: #999;
+}
+.login-con .con-item .form-item span{
+    background: url(../images/122.png) no-repeat;
+    width: 0.38rem;
+    height: 0.38rem;
+    background-size: cover;
+    float: right;
+    margin-top: 0.26rem;
+    cursor: pointer;
+}
+/*账号密码登录结束*/
+/*图片旋转*/
+.con-bottom .bottom-top p{
+    font-size: 0.24rem;
+    color: #333;
+    float: left;
+    padding-left: 0.6rem;
+    padding-top: 0.3rem;
+}
+.con-bottom .bottom-top>span{
+    font-size: 0.22rem;
+    color: #f9366d;
+    float: right;
+    padding-right: 0.6rem;
+    padding-top: 0.3rem;
+}
+.con-bottom .bottom-top .pic{
+    margin-left: 0.6rem;
+    margin-top: 0.26rem;
+    height:1.35rem;
+}
+.con-bottom .bottom-top .pic img{
+    width: 1.35rem;
+    height: 1.35rem;
+    float: left;
+    margin-right: 0.3rem;
+}
+/*图片旋转结束*/
+.clearfix{
+    clear:both;
+}
+/*登录*/
+.con-bottom .bottom-con{
+    margin-left: 0.56rem;
+    margin-top: 0.6rem;
+}
+.con-bottom .bottom-con .login{
+    font-size: 0.26rem;
+    color: #fff;
+    width:6.38rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-align: center;
+    background: #e1e1e1;
+    border-radius: 0.5rem;
+    border: none;
+}
+.con-bottom .bottom-con>span{
+    font-size: 0.20rem;
+    color :#999;
+    margin-left: 5.4rem;
+    display: inline-block;
+    margin-top: 0.2rem;
+}
+.con-bottom .bottom-con>span:hover{
+    color: red;
+}
+/*登录结束*/
+/*快捷登录方式*/
+.bottom-bottom{
+    margin-top: 0.5rem;
+}
+.bottom-bottom i{
+    background: url(../images/132.png);
+    width: 6.38rem;
+    height: 0.01rem;
+    background-size: cover;
+    display: inline-block;
+    margin-left: 0.5rem;
+    position: relative;
+}
+.bottom-bottom span{
+    font-size: 0.24rem;
+    color: #666;
+    position: absolute;
+    left: 50%;
+    top:9.5rem;
+}
+.bottom-bottom .quick{
+    margin-left: 2.86rem;
+    margin-top: 0.4rem;
+}
+.bottom-bottom .quick p{
+    width: 1.86rem;
+    height: 0.5rem;
+    border: 1px solid #ff5b7b;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color: #ff5b7b;
+}
+.bottom-bottom h4{
+    font-size: 0.20rem;
+    color: #666;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 2.2rem;
+}
+/*快捷登录方式结束*/
+/*内容结束*/
+
+
+
+
+
+
+

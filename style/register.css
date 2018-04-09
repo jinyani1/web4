@@ -1,0 +1,118 @@
+/*头部开始*/
+.m_header{
+    height: 0.88rem;
+    background: #fff;
+}
+.m_header img{
+    width: 0.2rem;
+    height: 0.36rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.28rem;
+}
+.m_header h3{
+    float: right;
+    font-weight: normal;
+    font-size: 0.30rem;
+    line-height: 0.88rem;
+    margin-right: 3.5rem;
+}
+/*头部结束*/
+/*内容开始*/
+.main{
+    width: 100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    margin: 0 auto;
+    height: 10rem;
+    background: #f0f0f0;
+}
+.line{
+    width: 100%;
+    height: 0.1rem;
+    background: #f0f0f0;
+}
+.con{
+    width: 100%;
+    height: 2.7rem;
+    background: #fff;
+}
+.con ul{
+    width: 100%;
+}
+.con ul li{
+    width: 100%;
+    height: 0.9rem;
+}
+.con ul li img{
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+.con ul li input{
+    width: 6.64rem;
+    height: 0.9rem;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 0.9rem;
+    float: right;
+
+}
+input::-webkit-input-placeholder{
+    font-size: 0.22rem;
+    color: #999;
+}
+.con ul .item{
+    position: relative;
+}
+.con ul li label{
+    width:  1.66rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 0.20rem;
+    color: #999;
+    display: inline-block;
+    border-left:1px solid #f0f0f0;
+    position: absolute;
+    right:0rem;
+}
+.con ul .password{
+    position: relative;
+}
+.con ul li i{
+    background: url(../images/136.png) no-repeat;
+    width: 0.34rem;
+    height: 0.22rem;
+    background-size: cover;
+    position: absolute;
+    right:0.2rem;
+    top:0.36rem;
+}
+.bottom{
+    width: 100%;
+    padding: 0 0.3rem;
+    margin-top: 0.2rem;
+}
+.bottom img{
+    width: 0.26rem;
+    height: 0.26rem;
+    float: left;
+}
+.bottom p{
+    font-size: 0.20rem;
+    color: #666;
+    float: left;
+    padding-left: 0.1rem;
+}
+.bottom .register{
+    width:100%;
+    height: 0.68rem;
+    background: #cccccc;
+    margin-top: 0.38rem;
+    border:none;
+    color:#fff;
+    font-size: 0.26rem;
+    border-radius: 0.1rem;
+}
+
+/*内容结束*/

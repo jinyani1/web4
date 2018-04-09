@@ -1,0 +1,253 @@
+/*头部开始*/
+.m_header {
+    width: 100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    height: 0.88rem;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 20;
+}
+.m_header .m_search .search{
+    width: 5.9rem;
+    height: 0.6rem;
+    background: #f0f0f0;
+    margin-top: 0.14rem;
+    margin-left: 0.45rem;
+    padding-left: 0.6rem;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.m_header .m_search .search_left{
+    width: 0.42rem;
+    height: 0.42rem;
+    font-size: 0.42rem;
+    position: absolute;
+    top:0.22rem;
+    left:0.54rem;
+    background: transparent;
+    color: #999;
+}
+.m_header .m_search .search_right{
+    width: 0.42rem;
+    height: 0.42rem;
+    font-size: 0.42rem;
+    position: absolute;
+    top:0.23rem;
+    right:1.24rem;
+    background: transparent;
+    color: #999;
+}
+.m_header .m_header_right{
+    width: 0.48rem;
+    height: 0.48rem;
+    font-size: 0.482rem;
+    position: absolute;
+    top: 0.22rem;
+    right: 0.36rem;
+    background: transparent;
+    color: #999;
+}
+/*头部结束*/
+
+/*内容开始*/
+.main_wrap{
+    width: 100%;
+    height: 25rem;
+    background: #fff;
+    z-index: 1;
+}
+/*当季热卖开始*/
+.top{
+    margin-top: 0.88rem;
+    margin-bottom: 0.3rem;
+}
+.top>p{
+    color: #000;
+    font-size: 0.24rem;
+    padding-top: 0.12rem;
+    margin-left: 0.2rem;
+}
+.top .top-con ul{
+    width: 100%;
+    /*padding: 0 0.2rem;*/
+}
+.top .top-con ul li{
+    width: 25%;
+    float: left;
+    margin-top: 0.2rem;
+}
+.top .top-con ul li a{
+    width: 100%;
+    text-align: center;
+}
+.top .top-con ul li a img{
+    width: 1.12rem;
+    height: 1.12rem;
+    margin: 0 auto;
+}
+.top .top-con ul li a>p{
+    font-size: 0.22rem;
+    color: #333;
+    margin-top: 0.1rem;
+}
+/*当季热卖结束*/
+.line{
+    width: 100%;
+    height: 0.1rem;
+    background: #f0f0f0;
+}
+.clearfix{
+    clear:both;
+}
+/*分类开始*/
+.con{
+    width: 100%;
+}
+.con ul{
+    width: 100%;
+}
+.con ul li{
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    height: 1.12rem;
+}
+.con ul li a p{
+    float: left;
+    font-size: 0.24rem;
+    color: #000;
+    line-height: 1.12rem;
+    margin-left: 0.4rem;
+}
+.con ul li a span{
+    float: left;
+    display: inline-block;
+    font-size: 0.20rem;
+    color: #999;
+    line-height: 1.12rem;
+    margin-left: 0.5rem;
+}
+.con ul li a img{
+    float: right;
+    display: inline-block;
+    width: 1.88rem;
+    height: 0.64rem;
+    margin-top: 0.25rem;
+    margin-right: 0.4rem;
+}
+/*分类结束*/
+/*精选专题开始*/
+.special{
+    width: 100%;
+    height: 8rem;
+    background: #f0f0f0;
+}
+.special .special-top{
+    width: 100%;
+    height: 0.7rem;
+    position: relative;
+}
+.special .special-top img{
+    width: 4.4rem;
+    height: 0.18rem;
+    margin: 0 auto;
+    position: absolute;
+    left:20%;
+    top: 0.26rem;
+}
+.special .special-top p{
+    text-align: center;
+    font-size: 0.24rem;
+    color: #333;
+    line-height: 0.7rem;
+}
+.special .special-con{
+    width: 100%;
+    margin-top: 0.1rem;
+}
+.special .special-con ul{
+    width: 100%
+}
+.special .special-con li{
+    width: 45%;
+    float: left;
+    background: #fff;
+    height: 5.3rem;
+    margin-left: 0.25rem;
+}
+.special .special-con ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.special .special-con a.pic{
+    width: 3.35rem;
+    height: 5.20rem;
+}
+.special .special-con .pic img{
+    width: 100%;
+}
+.special .special-con .text .name{
+    font-size: 0.2rem;
+    color : #333;
+    margin-top: 0.06rem;
+    line-height: 0.3rem;
+    margin-left: 0.08rem;
+}
+.special .special-con .text .money{
+    font-size: 0.24rem;
+    color : #000;
+    margin-top: 0.06rem;
+}
+.special .special-con .text .money-1{
+    margin-top: 0.36rem;
+}
+/*精选专题结束*/
+/*内容结束*/
+
+/*bottom开始*/
+.bottom{
+    width: 100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: 0 auto;
+
+    height: 0.98rem;
+    background: #fff;
+    border-top: 1px solid #dddddd;
+    z-index:100;
+}
+.bottom ul{
+    width: 100%;
+    height: 100%;
+}
+.bottom ul li{
+    width: 25%;
+    float: left;
+    padding-top: 0.12rem;
+}
+.bottom ul li a{
+    width: 100%;
+
+}
+.bottom ul li a img{
+    width: 0.53rem;
+    height: 0.67rem;
+    margin: 0 auto;
+}
+/*bottom结束*/
+
+
+
+
+
+
+

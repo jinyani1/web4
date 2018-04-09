@@ -1,0 +1,380 @@
+/*CSS Document*/
+/*头部开始*/
+.m_header {
+    width: 100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    /*background: url(../images/1.jpg) no-repeat;*/
+    /*background-size: cover;*/
+    /*height: 3.4rem;*/
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 20;
+}
+.m_header .m_search .search{
+    width: 5.9rem;
+    height: 0.6rem;
+    margin-top: 0.14rem;
+    margin-left: 0.45rem;
+    padding-left: 0.6rem;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.m_header .m_search .search_left{
+    width: 0.42rem;
+    height: 0.42rem;
+    font-size: 0.42rem;
+    position: absolute;
+    top:0.22rem;
+    left:0.54rem;
+    background: transparent;
+    color: #999;
+}
+.m_header .m_search .search_right{
+    width: 0.42rem;
+    height: 0.42rem;
+    font-size: 0.42rem;
+    position: absolute;
+    top:0.23rem;
+    right:1.24rem;
+    background: transparent;
+    color: #999;
+}
+.m_header .m_header_right{
+    width: 0.48rem;
+    height: 0.48rem;
+    font-size: 0.482rem;
+    position: absolute;
+    top: 0.22rem;
+    right: 0.36rem;
+    background: transparent;
+    color: #fff;
+}
+/*头部结束*/
+
+/*banner轮播开始*/
+.main_wrap{
+    width: 100%;
+    z-index: 10;
+    height: 43rem;
+    background: #fff;
+}
+.main_wrap .banner{
+    width: 100%;
+    height: auto;
+}
+.main_wrap .banner .swiper-container .swiper-wrapper img{
+    width: 100%;
+}
+/*banner轮播结束*/
+
+/*nav开始*/
+nav{
+    width: 100%;
+    height: 3.2rem;
+}
+nav ul{
+    width: 100%;
+}
+nav ul li{
+    width: 20%;
+    float: left;
+    margin-top: 0.2rem;
+}
+nav ul li a{
+     width: 100%;
+     text-align: center;
+}
+nav ul li a img{
+    width: 0.9rem;
+    height: 0.9rem;
+    font-size: 0.9rem;
+    margin: 0 auto;
+}
+nav ul li a p{
+    font-size: 0.24rem;
+    color: #333333;
+    margin-top: 0.06rem;
+}
+/*nav结束*/
+
+.line{
+    width: 100%;
+    height: 0.1rem;
+    background: #f0f0f0;
+}
+
+/*floor_one开始*/
+.floor_one p{
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.floor_one img{
+    width: 100%;
+    height: auto;
+    padding: 0 0.2rem;
+    margin-bottom: 0.3rem;
+}
+/*floor_one结束*/
+
+/*floor_two开始*/
+.floor_two .two-top p{
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+    display: inline-block;
+}
+.floor_two .two-top span{
+    float: right;
+    font-size: 0.18rem;
+    color: #999;
+    margin-top: 0.24rem;
+    margin-right: 0.2rem;
+}
+.clearfix{
+    clear:both;
+}
+/*floor_two结束*/
+
+/*floor_three开始*/
+.floor_three .swiper-container .swiper-wrapper{
+    width: 100%;
+    margin-left: 0.2rem;
+}
+.floor_three .swiper-container .swiper-wrapper .swiper-slide{
+    width: 33.333%;
+}
+.floor_three .swiper-container .swiper-wrapper .swiper-slide img{
+    width: 2.03rem;
+    height: 4.05rem;
+}
+.floor_three .swiper-container .swiper-wrapper .swiper-slide p{
+    font-size: 0.22rem;
+    color: #333;
+    text-align: center;
+    margin-top: 0.08rem;
+    margin-bottom: 0.2rem;
+}
+/*floor_three结束*/
+
+/*floor_four开始*/
+.floor_four{
+    margin-bottom: 0.2rem;
+}
+.floor_four p{
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.floor_four .four_content ul{
+    width: 100%;
+}
+.floor_four .four_content ul li{
+    width: 25%;
+    float: left;
+}
+.floor_four .four_content ul li a{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.floor_four .four_content ul li a img{
+    width: 1.55rem;
+    height: 1.55rem;
+    margin: 0 auto;
+}
+.floor_four .four_content ul li a .big{
+    width: 1.72rem;
+    height: 1.63rem;
+}
+.floor_four .four_content ul li a span{
+    font-size: 0.22rem;
+    color: #333;
+    display: inline-block;
+    margin-top: 0.12rem;
+}
+/*floor_four结束*/
+
+/*floor_five开始*/
+.floor_five{
+    margin-bottom: 0.3rem;
+}
+.floor_five p{
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+.floor_five .five_con ul{
+    width: 100%;
+}
+.floor_five .five_con ul li{
+    width: 50%;
+    float: left;
+}
+.floor_five .five_con ul li a img{
+    width: 3.47rem;
+    height: 2.1rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+}
+/*floor_five结束*/
+
+/*floor_six开始*/
+.floor_six .six-top p{
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+    display: inline-block;
+}
+.floor_six .six-top span{
+    float: right;
+    font-size: 0.18rem;
+    color: #999;
+    margin-top: 0.24rem;
+    margin-right: 0.2rem;
+}
+.floor_six .swiper-container .swiper-wrapper{
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+}
+.floor_six .swiper-container .swiper-wrapper .swiper-slide a img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.floor_six .swiper-container .swiper-wrapper .swiper-slide a p{
+    font-size: 0.2rem;
+    color: #333;
+    /*margin-left: 0.02rem;*/
+    margin-top: 0.08rem;
+    margin-bottom: 0.3rem;
+}
+
+/*floor_six结束*/
+
+/*精选专题开始*/
+.special{
+    width: 100%;
+    height: 0.7rem;
+    background: #f0f0f0;
+    position: relative;
+}
+.special_top img{
+    width: 4.4rem;
+    height: 0.18rem;
+    margin: 0 auto;
+    position: absolute;
+    left:20%;
+    top: 0.26rem;
+}
+.special_top p{
+    text-align: center;
+    font-size: 0.24rem;
+    color: #333;
+    line-height: 0.7rem;
+}
+.special .swiper-container .swiper-wrapper{
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+.special .swiper-container .swiper-wrapper .one p{
+    color:#f60431;
+}
+.special .swiper-container .swiper-wrapper .swiper-slide p{
+    font-size: 0.22rem;
+    width: 1rem;
+    height: 0.4rem;
+    background: #f0f0f0;
+    line-height: 0.4rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.special_con{
+   margin-top: 0.8rem;
+}
+.special_con img{
+    width: 100%;
+}
+.special_con .swiper-container{
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+.special_con .swiper-container .swiper-wrapper .swiper-slide img{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.special_con .swiper-container .swiper-wrapper .swiper-slide p{
+    font-size: 0.2rem;
+    color:#333;
+}
+
+.special_con_2{
+    margin-top: 0.3rem;
+}
+.special_con_2 img{
+    width: 100%;
+}
+.special_con_2 .swiper-container{
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+.special_con_2 .swiper-container .swiper-wrapper .swiper-slide img{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.special_con_2 .swiper-container .swiper-wrapper .swiper-slide p{
+    font-size: 0.2rem;
+    color:#333;
+}
+/*精选专题结束*/
+
+
+
+/*bottom开始*/
+.bottom{
+    width: 100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: 0 auto;
+
+    height: 0.98rem;
+    background: #fff;
+    border-top: 1px solid #dddddd;
+    z-index:100;
+}
+.bottom ul{
+    width: 100%;
+    height: 100%;
+}
+.bottom ul li{
+    width: 25%;
+    float: left;
+    padding-top: 0.12rem;
+}
+.bottom ul li a{
+    width: 100%;
+
+}
+.bottom ul li a img{
+    width: 0.53rem;
+    height: 0.67rem;
+    margin: 0 auto;
+}
+/*bottom结束*/
+
+
+
+
+
